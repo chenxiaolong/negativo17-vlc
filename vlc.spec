@@ -1,7 +1,7 @@
 Summary:    The cross-platform open-source multimedia framework, player and server
 Name:       vlc
 Version:    2.2.4
-Release:    3%{?dist}
+Release:    4%{?dist}
 Epoch:      1
 License:    GPLv2+
 URL:        http://www.videolan.org
@@ -695,6 +695,9 @@ fi
 %{_libdir}/pkgconfig/libvlc.pc
 
 %changelog
+* Thu Jan 12 2017 Simone Caronni <negativo17@gmail.com> - 1:2.2.4-4
+- Rebuild for x265 update.
+
 * Mon Nov 28 2016 Simone Caronni <negativo17@gmail.com> - 1:2.2.4-3
 - Add patch for FFmpeg 3.x.
 - Explicitly require FFmpeg 3.x versions to avoid pulling in FFmpeg
