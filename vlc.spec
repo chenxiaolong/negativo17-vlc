@@ -1,7 +1,7 @@
 Summary:    The cross-platform open-source multimedia framework, player and server
 Name:       vlc
 Version:    2.2.4
-Release:    4%{?dist}
+Release:    5%{?dist}
 Epoch:      1
 License:    GPLv2+
 URL:        http://www.videolan.org
@@ -695,6 +695,9 @@ fi
 %{_libdir}/pkgconfig/libvlc.pc
 
 %changelog
+* Mon Feb 27 2017 Simone Caronni <negativo17@gmail.com> - 1:2.2.4-5
+- Rebuild for x265 update.
+
 * Thu Jan 12 2017 Simone Caronni <negativo17@gmail.com> - 1:2.2.4-4
 - Rebuild for x265 update.
 
