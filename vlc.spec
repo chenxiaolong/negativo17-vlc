@@ -1,6 +1,6 @@
 Summary:    The cross-platform open-source multimedia framework, player and server
 Name:       vlc
-Version:    2.2.5.1
+Version:    2.2.6
 Release:    1%{?dist}
 Epoch:      1
 License:    GPLv2+
@@ -9,7 +9,7 @@ URL:        http://www.videolan.org
 Source0:    http://download.videolan.org/pub/videolan/%{name}/%{version}/%{name}-%{version}.tar.xz
 Patch0:     %{name}-2.2.4-ffmpeg3.patch
 
-BuildRequires:  a52dec-devel
+BuildRequires:  liba52-devel
 BuildRequires:  aalib-devel
 BuildRequires:  autoconf
 BuildRequires:  automake
@@ -695,6 +695,9 @@ fi
 %{_libdir}/pkgconfig/libvlc.pc
 
 %changelog
+* Sun Jun 25 2017 Simone Caronni <negativo17@gmail.com> - 1:2.2.6-1
+- Update to 2.2.6.
+
 * Tue May 16 2017 Simone Caronni <negativo17@gmail.com> - 1:2.2.5.1-1
 - Update to 2.2.5.1.
 
