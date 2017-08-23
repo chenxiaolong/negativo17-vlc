@@ -485,6 +485,7 @@ fi
 %{_libdir}/%{name}/plugins/demux/libdiracsys_plugin.so
 %{_libdir}/%{name}/plugins/demux/libes_plugin.so
 %{_libdir}/%{name}/plugins/demux/libflacsys_plugin.so
+%{_libdir}/%{name}/plugins/demux/libgme_plugin.so
 %{_libdir}/%{name}/plugins/demux/libh264_plugin.so
 %{_libdir}/%{name}/plugins/demux/libhevc_plugin.so
 %{_libdir}/%{name}/plugins/demux/libimage_plugin.so
