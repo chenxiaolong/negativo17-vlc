@@ -15,6 +15,7 @@ BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  desktop-file-utils
 BuildRequires:  faad2-devel
+BuildRequires:  game-music-emu-devel
 BuildRequires:  gettext-devel
 #BuildRequires:  hostname
 BuildRequires:  kdelibs
